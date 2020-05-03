@@ -1,0 +1,36 @@
+/*救援路线IMG*/
+.routeid_img {
+	display: inline;
+	margin-left: 10px;
+}
+/*路线弹出框自定义样式*/
+.route-dialog {
+	background-color: white;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	font-family: tahoma, helvetica, "microsoft yahei", "雅黑", arial;
+	position: absolute;
+	clear: left;
+	overflow: hidden;
+	right: 0px;
+	bottom: 0px;
+	z-index: 1024;
+}
+.route-dialog .j-dialog-close {
+    background: url(../../../js/plugins/jqueryDialog/jDialog/img/dialog-btns.gif) no-repeat -141px -8px;
+    float: right;
+    line-height: normal;
+    margin: 0px 16px 0 0;
+    text-decoration: none;
+    width:18px;
+    position: absolute;
+    right: -5px;
+    top: 9px;
+}
+.route-dialog .j-dialog-close:hover {
+    background-position: -141px -36px;
+}
+.route-dialog .j-dialog-close.btn-without-title {
+    right: -14px;
+    top: 6px;
+}
