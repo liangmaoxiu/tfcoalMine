@@ -1,30 +1,109 @@
 ﻿/*路径导航*/
-.routenav_watchQuery { WIDTH: 63px; BACKGROUND: url(../images/index/search_b.png) no-repeat; FLOAT: right; HEIGHT: 22px; CURSOR: pointer; MARGIN-RIGHT: 33px;margin-top:9px;}
-.routenav_watchQuery:hover { BACKGROUND: url(../images/index/search_r.png) no-repeat; HEIGHT: 22px; CURSOR: pointer; MARGIN-RIGHT: 33px;margin-top:9px;}
-.route_serch_left{height:22px;line-height:22px;padding-left:0px;float:left;display:inline;line-height:22px;margin-top:12px;margin-left:5px;}
-.route_txt{float:left;display:block;width:190px;height:22px;line-height:22px;}
-.route_star{background:url(../images/index/mainImage.png) no-repeat -4px -4px;width:24px;height:24px;display:block;border:none;cursor:pointer;margin-left:2px;float:left;}
-.route_end{background:url(../images/index/mainImage.png) no-repeat -32px -4px;width:24px;height:24px;display:block;border:none;cursor:pointer;margin-left:2px;float:left;}
-.route_point{background:url(../images/route/add-stop.png) no-repeat;width:16px;height:16px;display:block;border:none;cursor:pointer;margin-left:2px;margin-top:4px;float:left;}
-/*滚动条CSS_div*/ 
-.route-content
-{
+
+
+/*员工信息样式*/
+
+.work-style {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.work-close {
+    color: #3977c4;
+    float: right;
+    margin-right: 5px;
+}
+
+.routenav_watchQuery {
+    WIDTH: 63px;
+    BACKGROUND: url(../images/index/search_b.png) no-repeat;
+    FLOAT: right;
+    HEIGHT: 22px;
+    CURSOR: pointer;
+    margin: 10px;
+}
+
+.routenav_watchQuery:hover {
+    BACKGROUND: url(../images/index/search_r.png) no-repeat;
+    HEIGHT: 22px;
+    CURSOR: pointer;
+    margin: 10px;
+}
+
+.route_serch_left {
+    height: 22px;
+    line-height: 22px;
+    padding-left: 0px;
+    float: left;
+    display: inline;
+    line-height: 22px;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.route_txt {
+    float: left;
+    display: block;
+    width: 170px;
+    height: 22px;
+    line-height: 22px;
+}
+
+.route_star {
+    background: url(../images/index/mainImage.png) no-repeat -4px -4px;
+    width: 24px;
+    height: 24px;
+    display: block;
+    border: none;
+    cursor: pointer;
+    margin-left: 2px;
+    float: left;
+}
+
+.route_end {
+    background: url(../images/index/mainImage.png) no-repeat -32px -4px;
+    width: 24px;
+    height: 24px;
+    display: block;
+    border: none;
+    cursor: pointer;
+    margin-left: 2px;
+    float: left;
+}
+
+.route_point {
+    background: url(../images/route/add-stop.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    display: block;
+    border: none;
+    cursor: pointer;
+    margin-left: 2px;
+    margin-top: 4px;
+    float: left;
+}
+
+
+/*滚动条CSS_div*/
+
+.route-content {
     width: 250px;
     /*height:485px;*/
     position: relative;
     overflow-y: auto;
-    overflow-x:hidden;
-    margin-top:35px;
-    background-color:#fff;
-    margin-bottom:10px;
-    float:left;
+    overflow-x: hidden;
+    background-color: #e8ebef;
+    margin-bottom: 10px;
+    float: left;
     /*border-top: 1px solid #1BB0F5;*/
 }
+
 .route_list {
     float: left;
     /*width: 240px;*/
     width: 208px;
-    height:44px;
+    height: 44px;
     /*line-height:35px;*/
     /*overflow:hidden;*/
     display: block;
@@ -34,18 +113,19 @@
     font-size: 12px;
     border-bottom: 1px dotted #e0e3ed;
 }
+
 .route_img {
     float: left;
     width: 26px;
     height: 26px;
 }
+
 .route_list:hover {
-    background:#eee;
-    /*border:1px solid #8fccff;*/   
+    background: #eee;
+    /*border:1px solid #8fccff;*/
 }
 
 #measure .btn {
-  
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0px;
@@ -63,13 +143,10 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-    background-color:#66B3FF !important;
-
+    background-color: #66B3FF !important;
 }
 
 #analysis #analysisView {
-
-   
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0px;
@@ -87,13 +164,10 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-     background-color:#66B3FF !important;
-
+    background-color: #66B3FF !important;
 }
 
 #analysis #analysisTerrian {
-
-   
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0px;
@@ -111,12 +185,10 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-     background-color:#01B468 !important;
-
+    background-color: #01B468 !important;
 }
+
 #analysis #analysisOther {
-
-   
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0px;
@@ -134,12 +206,10 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-     background-color:#F75000 !important;
-
+    background-color: #F75000 !important;
 }
-#navHeader .btn {
 
-    
+#navHeader .btn {
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0px;
@@ -157,12 +227,10 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-    background-color:#6fb3e0 !important;
-
+    background-color: #6fb3e0 !important;
 }
 
 #szz .btn {
-
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0px;
@@ -180,25 +248,22 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-    background-color:#f0ad4e !important;
-
+    background-color: #f0ad4e !important;
 }
-#navHeader .btn-info {    
+
+#navHeader .btn-info {
     color: #fff;
     background-color: #5bc0de;
     border-color: #46b8da;
 }
 
-#navHeader .btn-warning {    
-  
+#navHeader .btn-warning {
     color: #fff;
     background-color: #f0ad4e;
     border-color: #eea236;
-
 }
-#markCreate .btn {
 
-    
+#markCreate .btn {
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0px;
@@ -216,22 +281,16 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-
-     background-color:#6fb3e0  !important;
-
+    background-color: #6fb3e0 !important;
 }
 
 #markCreate .btn-info {
-
-     
     color: #fff;
     background-color: #5bc0de;
     border-color: #46b8da;
-
-
 }
-#markDelete .btn {
 
+#markDelete .btn {
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0px;
@@ -249,24 +308,16 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-
-     background-color:#f0ad4e  !important;
+    background-color: #f0ad4e !important;
 }
-#markDelete .btn-warning {
 
-   
+#markDelete .btn-warning {
     color: #fff;
     background-color: #f0ad4e;
     border-color: #eea236;
-
-
-
 }
 
 #bookCreate .btn {
-
-
-   
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0px;
@@ -284,22 +335,16 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-        background-color:#6fb3e0  !important;
+    background-color: #6fb3e0 !important;
 }
 
 #bookCreate .btn-info {
- 
     color: #fff;
     background-color: #5bc0de;
     border-color: #46b8da;
-
-
-
 }
 
-#booklables .btn{
-
-
+#booklables .btn {
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0px;
@@ -317,26 +362,16 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-     background-color:#f0ad4e  !important;
-
-
+    background-color: #f0ad4e !important;
 }
 
-
-#booklables  .btn-warning {
-
-    
+#booklables .btn-warning {
     color: #fff;
     background-color: #f0ad4e;
     border-color: #eea236;
-
-
 }
-
 
 #inputDraw {
-
-   
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0px;
@@ -354,14 +389,10 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-    background-color:#428bca  !important;
-
-
+    background-color: #428bca !important;
 }
 
-#markDraw{
-
-   
+#markDraw {
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0px;
@@ -379,14 +410,10 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-    background-color:#428bca  !important;
-
-
+    background-color: #428bca !important;
 }
 
-#markDraws{
-
-   
+#markDraws {
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0px;
@@ -404,12 +431,11 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-    background-color:#428bca  !important;
-
-
+    background-color: #428bca !important;
 }
+
 #bookDraw {
-        display: inline-block;
+    display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0px;
     font-size: 14px;
@@ -426,39 +452,31 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-    background-color:#428bca  !important;
-
-
+    background-color: #428bca !important;
 }
 
 .menu_toolline ul {
-
-    margin-left:0px;
+    margin-left: 0px;
 }
 
-
 .menu_tool ul {
-
-    margin-left:0px;
+    margin-left: 0px;
 }
 
 .statistics_tool ul {
-
-    margin-left:0px;
+    margin-left: 0px;
 }
 
 .spatialquery_menu_tool ul {
-
-    margin-left:0px;
+    margin-left: 0px;
 }
-.addressmatch_menu_tool ul {
 
-    margin-left:0px;
+.addressmatch_menu_tool ul {
+    margin-left: 0px;
 }
 
 #point_subset {
-
-   display: inline-block;
+    display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0;
     font-size: 14px;
@@ -475,9 +493,8 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-
-
 }
+
 #mapKuang {
     display: inline-block;
     padding: 6px 12px;
@@ -496,18 +513,18 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-
-
 }
+
 input {
-padding: 0px  !important;
+    padding: 0px !important;
 }
+
 select {
-padding: 0px !important;
+    padding: 0px !important;
 }
 
 .toolLength {
-    margin-left: 10px; 
+    margin-left: 10px;
     position: relative;
     top: -3px;
 }
@@ -530,7 +547,7 @@ padding: 0px !important;
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-    background-color:white  !important;
+    background-color: white !important;
     height: 26px;
     line-height: 14px;
     color: #333 !important;
@@ -557,14 +574,14 @@ padding: 0px !important;
     border-radius: 4px;
     height: 26px;
     line-height: 14px;
-    background-color:white  !important;
+    background-color: white !important;
     height: 26px;
     line-height: 14px;
-     color: #333 !important;
+    color: #333 !important;
     border: 1px solid #D5D5D5;
 }
-#maskPrePage {
 
+#maskPrePage {
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0;
@@ -584,13 +601,11 @@ padding: 0px !important;
     border-radius: 4px;
     height: 26px;
     line-height: 14px;
-    background-color:white  !important;
-     height: 26px;
+    background-color: white !important;
+    height: 26px;
     line-height: 14px;
-     color: #333 !important;
+    color: #333 !important;
     border: 1px solid #D5D5D5;
-
-
 }
 
 #maskNextPage {
@@ -611,22 +626,20 @@ padding: 0px !important;
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-    
-    background-color:white  !important;
+    background-color: white !important;
     height: 26px;
     line-height: 14px;
-    background-color:white  !important;
-     color: #333 !important;
+    background-color: white !important;
+    color: #333 !important;
     border: 1px solid #D5D5D5;
-
 }
+
 #addressfile_SearchType {
-
     visibility: visible !important;
-
 }
+
 .spatialquery_menu_tools {
-    font-family: "宋体",arial;
+    font-family: "宋体", arial;
     font-size: 13px;
     float: left;
     display: inline;
@@ -637,6 +650,7 @@ padding: 0px !important;
     margin-left: 2px;
     margin-top: 5px;
 }
+
 .spatialquery_viewlabels {
     width: 14px;
     height: 14px;
